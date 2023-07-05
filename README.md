@@ -30,7 +30,7 @@ Check the user manual in documents folder
 The windows version contains the programs ready to run. You just have to unzipp and double click on the files. Please, read the user manual before using them.
 
 ## Source code
-We have included the source code and the manual to compile it in Ubuntu-like Linux distributions. Please, read the compile manual to do it.
+We have included the source code and the manual to compile the programs in Ubuntu-like Linux distributions (it can be also used to compile in Windows with some small changes).
 
 ## Test data
 We have included two projects to allow the user to test the programs. It is important to note that the images belong to real projects but the values are not due to license issues. In case that you want to use the real data, ask it to Maria Rosario Blanc at mrblanc@ugr.es.
