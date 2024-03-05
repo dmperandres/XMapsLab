@@ -1,0 +1,24 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+<qresource>
+     <file>../common/icons/logo_xmapslab_xmapslab.png</file>
+     <file>../common/icons/fileopen.png</file>
+     <file>../common/icons/filesave.png</file>
+     <file>../common/icons/exit.png</file>
+     <file>../common/icons/button_invisible.png</file>
+     <file>../common/icons/button_visible.png</file>
+     <file>../common/icons/button_write.png</file>
+     <file>../common/icons/button_no_write.png</file>
+     <file>../common/icons/continuous.png</file>
+     <file>../common/icons/discrete.png</file>
+     <file>../common/icons/filter.png</file>
+     <file>../common/icons/icon_palette.png</file>
+     <file>../common/icons/valid.png</file>
+     <file>../common/icons/invalid.png</file>
+     <file>../common/icons/go-up.svg</file>
+     <file>../common/icons/go-home.svg</file>
+     <file>../common/icons/folder.svg</file>
+     <file>../common/icons/file.svg</file>
+     <file>../common/icons/edit-undo.svg</file>
+</qresource>
+</RCC>
