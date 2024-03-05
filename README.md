@@ -19,7 +19,7 @@ Please note the software is provided "as is".  Use it at your own risk, although
 
 ## License
 Most code is [GNU General Public License v3](https://www.gnu.org/licenses/gpl-3.0.en.html)
-(see [license.txt](license.txt)), except the code for doing the MHD computation that has an [Apache 2 License](https://www.apache.org/licenses/LICENSE-2.0)
+(see [license.txt](license.txt)), except the code for doing the MHD computation (https://github.com/dmperandres/minimum_hypercube_distance) that has an [Apache 2 License](https://www.apache.org/licenses/LICENSE-2.0)
 
 ## Requirements
 This project compiles under Linux and Windows. In both cases the project requires these additional components:
