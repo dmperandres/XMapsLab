@@ -22,7 +22,7 @@ Most code is [GNU General Public License v3](https://www.gnu.org/licenses/gpl-3.
 (see [license.txt](license.txt)), except the code for doing the MHD computation (https://github.com/dmperandres/minimum_hypercube_distance) that has an [Apache 2 License](https://www.apache.org/licenses/LICENSE-2.0)
 
 ## Windows
-The program can be used with **Windows 10** and **11**. Copy the **Windows** folder in you PC and double click in any of the two programs that are include.
+The program can be used with **Windows 10** and **11**. Copy the **Windows** folder in you PC and double click in any of the two programs that are included.
 
 ## Requirements
 This project compiles under Linux and Windows. In both cases the project requires these additional components:
