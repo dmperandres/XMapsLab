@@ -1,0 +1,12 @@
+* 221228
+aquí pongo la información de los ficheros que voy cambiando 
+
+distance.vert.metodo_mio
+Este tiene lo de que para el HLS/HSV divide el rango de 360 grado en tres partes. No está bien. Hay que modificarlo
+
+distance.ver.HSVnormal
+este tiene un calculo normal, mediante la diferencia, pero hace un pequeño ajuste para el valor 0. Tampoco está bien
+
+distance.vert
+Lo he cambiando. Ahora lo que hace es que para cada color, el más lejano está a 180 grados de diferencia. en positivo o en negativo. Para convertir el sistema discontinuo en uno continuo hay que implmentar un código que distingue los distintos casos y usa el módulo. Parece el más sensato. El problema es que si sólo se usa el color, el negro, el banco y los grises aparecen como el mismo color que el rojo. 
+Esto habría que trabajarlo para que por un lado sólo se pueda operar con los colores, y por otro para los niveles de gris.
