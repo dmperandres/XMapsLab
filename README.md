@@ -94,9 +94,12 @@ Below we explain how these requirements are installed, both for Windows and Linu
   * in the License Agreement dialog, check the box that you agree to the license conditions, then click "Next >"
   * click "Next >" to start the installation of Qt (if you do not have enough disk space then "Next >" is greyed out)
 
-### XMapsLab Compilation under Linux
+### XMapsLab compilation under Linux
 * get the XMapsLab sources: `cd ~/code ; git clone https://github.com/dmperandres/XMapsLab.git`
-* change to the main directory of the XMapsLab code: `cd ~/code/XMapsLab/code`
+* change to the main directory of the XMapsLab code: `cd ~/code/XMapsLab/code/xmapslab`
+* link or copy the **common** folder inside 'xmapslab_src' folder
+* link or copy the **program_data** folder inside 'xmapslab' folder
+* link or copy the **projects** folder inside 'xmapslab' folder
 * edit the [```xmapslab.pro```](src/xmapslab.pro) project file; e.g., `kate xmapslab.pro`
   * at the top of the file, adjust the ```LINUX_PATH``` to the folder where the libraries are, in our case ```/home/user/code```
   * at the bottom of the file, adjust the ```INCLUDEPATH``` and ```LIBS``` paths to your respective user name and to your library versions of OpenCV and GLEW:
@@ -115,7 +118,7 @@ Below we explain how these requirements are installed, both for Windows and Linu
   }
   ```
 
-  * once done with the edits in [```xmapslab.pro```](src/xmapslab.pro), save it and exit the editor
+* once done with the edits in [```xmapslab.pro```](src/xmapslab.pro), save it and exit the editor
 * run QtCreator: `cd ~/code ; Qt/Tools/QtCreator/bin/qtcreator`
 * open XMapsLab project via "File > Open file or project..." and find the [```xmapslab.pro```](src/xmapslab.pro) in the folder ```~/code/XMapsLab/src```
 * click on the "Configure project" button
@@ -161,7 +164,7 @@ Finally, the data must be correctly placed in relation to the program. This can 
 
   ```cd ~/code/XMapsLab```
 
-  ```cp -r data/pdb code/```
+  ```cp -r data/program_data code/```
 
   ```cp -r data/projects code/```
 
@@ -170,6 +173,9 @@ Finally, the data must be correctly placed in relation to the program. This can 
 
   ```cd ~/code/XMapsLab```
 
-  ```ln -s data/pdb code/pdb```
+  ```ln -s data/program_data code/pdb```
 
   ```ln -s data/projects code/projects```
+
+ ### Positions compilation under Linux 
+ For compiling **Positions**, please do the same steps for compiling **XMapsLab** but taking into account the different folder
